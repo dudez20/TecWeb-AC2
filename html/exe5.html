@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Title</title>
+</head>
+<body>
+<h1>Cadastro de Editoras</h1><br>
+
+<form action="novoNome" method="POST">
+<label for="primeiroNome">Primeiro Nome</label>: <br>
+<input type="text" name="primeiroNome" id="primeiroNome" maxlength="20" required><br>
+
+<label for="ultimoNome">Ultimo Nome</label>: <br>
+<input type="text" name="ultimoNome" id="ultimoNome" maxlength="30" required><br>
+
+<label for="novoEndereco">Endereço</label>: <br>
+<input type="text" name="novoEndereco" id="novoEndereco" maxlength="50" required><br>
+
+<label for="novoCNPJ" max="10">CNPJ</label>: <br>
+<input type="number" name="novoCNPJ" id="novoCNPJ" max="9999999999" min="1" required><br>
+
+<label for="novoSite">Site</label>: <br>
+<input type="url" name="novoSite" id="novoSite" required><br>
+
+<label for="nonoEmail">E-Mail</label>: <br>
+<input type="email" id="nonoEmail" name="nonoEmail" required> <br>
+
+<label for="novoTel">Telefone</label> <br>
+<input type="number" name="novoTel" id="novoTel" required> <br>
+
+Genero: <br>
+<select name="gerero" id="genero" required>
+    <option value="policial">Policial</option>
+    <option value="ficcao">Ficcao</option>
+    <option value="religioso">Religioso</option>
+    <option value="esporte">Esporte</option>
+    <option value="profissional">Profissional</option>
+    <option value="outro">Outro</option>
+</select>
+</form>
+</body>
+</html>
